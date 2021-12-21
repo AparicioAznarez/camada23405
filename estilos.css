@@ -41,7 +41,6 @@ header {
 .logo{
     width: 30%;
     height: 100%;
-
 }
 
 nav {
@@ -185,6 +184,7 @@ p{
     height: 50%;
     width: 100%
 }
+h6{}
 
 @media all and (max-width: 600px){
     .Contenedor1{
