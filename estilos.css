@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.GridContenedor{
+    display: grid;
+    grid-template-areas: 
+    "header header header"
+    "nav nav nav"
+    "main main Aside"
+    "Footer Footer Footer"
+    ;
+}
+.GridContenedor div{
+    border: 2px solid black;
+}
+.item1{
+    grid-area: header;
+}
+.item2{
+    grid-area: nav;
+}
+.item3{
+    grid-area: main;
+}
+.item4{
+    grid-area: Aside;
+}
+.item5{
+    grid-area: Footer;
+}
+header {
+    display: flex;
+    flex-direction: row;
+    background-image: url(../img/Fondo1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid black ;
+}
+
+.logo{
+    width: 30%;
+    height: 100%;
+
+}
+
+nav {
+    background-color: crimson;
+    
+}
+nav a {
+    text-decoration: wavy;
+    color: black;
+    font-size: 50px;
+}
+nav a:hover{
+    color: indigo;
+    background-color: #008849;
+}
+ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+li {
+    list-style: none;
+    cursor: pointer;
+    padding: 20px;
+    transition:  all 0.3s ease 0s;
+}
+nav a:hover{
+    color: indigo;
+    background-color: #008849;
+}
+h2{
+    text-align: center;
+    font-size: 70px;
+
+}
+.Contenedor1{
+    background-color: gray;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 300px 300px 50px;
+    grid-gap: 30px;
+    
+
+}
+.caja{
+    border: 2px solid black;
+}
+.caja1 img{
+    height: 100%;
+    width: 100%;
+}
+.caja2 img{
+    height: 100%;
+    width: 100%;
+}
+.caja3 img{
+    height: 100%;
+    width: 100%;
+}
+.caja4 img{
+    height: 100%;
+    width: 100%;
+}
+.caja5 img{
+    height: 100%;
+    width: 100%;
+}
+.caja6 img{
+    height: 100%;
+    width: 100%;
+}
