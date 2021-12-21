@@ -46,6 +46,7 @@ header {
 
 nav {
     background-color: crimson;
+    border: 2px solid black;
     
 }
 nav a {
@@ -67,6 +68,7 @@ li {
     cursor: pointer;
     padding: 20px;
     transition:  all 0.3s ease 0s;
+    border: 3px solid black;
 }
 nav a:hover{
     color: indigo;
@@ -93,23 +95,108 @@ h2{
     height: 100%;
     width: 100%;
 }
+.caja1{
+    transition: 1s;
+}
+.caja1:hover{
+    transform: scale(2);
+}
 .caja2 img{
     height: 100%;
     width: 100%;
+}
+.caja2{
+    transition: 1s;
+}
+.caja2:hover{
+    transform: scale(2);
 }
 .caja3 img{
     height: 100%;
     width: 100%;
 }
+.caja3 {
+    transition: 1s;
+}
+.caja3:hover{
+    transform: scale(2);
+}
 .caja4 img{
     height: 100%;
     width: 100%;
+}
+.caja4{
+    transition: 1s;
+}
+.caja4:hover{
+    transform: scale(2);
 }
 .caja5 img{
     height: 100%;
     width: 100%;
 }
+.caja5{
+    transition: 1s;
+}
+.caja5:hover{
+    transform: scale(2);
+}
 .caja6 img{
     height: 100%;
     width: 100%;
+}
+.caja6{
+    transition: 1s;
+}
+.caja6:hover{
+    transform: scale(2);
+}
+h3{
+    text-align: center;
+}
+.Contenedor2{
+    background-color: grey;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 400px 400px ;
+    grid-gap: 30px;
+}
+h5{
+    text-align: center;
+    font-size: 30px;
+}
+p{
+    text-align: center;
+    font-size: 20px;
+}
+.Box1 {
+    overflow:auto;
+}
+
+.Box2 img {
+    height: 50%;
+    width: 100%;
+}
+.Box3{
+    overflow: auto;
+}
+
+.Box4 img{
+    height: 50%;
+    width: 100%
+}
+
+@media all and (max-width: 600px){
+    .Contenedor1{
+        grid-template-columns: 1fr;
+        grid-template-rows: 300px 300px;
+    }
+    .Contenedor2{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        
+    }
+    ul {
+        flex-direction: column;
+    }
 }
